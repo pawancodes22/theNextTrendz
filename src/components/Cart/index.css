@@ -80,19 +80,21 @@
 .modal {
   font-size: 12px;
   background-color: #e2dce3;
-  font-family: "Roboto";
+  font-family: 'Roboto';
+  border-radius: 8px;
 }
 .modal > .header {
   width: 100%;
   border-bottom: 1px solid gray;
-  font-size: 18px;
+  font-size: 23px;
   text-align: center;
   padding: 5px;
   font-weight: bold;
+  margin: 5px 0px;
 }
 .modal > .content {
   width: 100%;
-  padding: 10px 5px;
+  padding: 10px 20px;
 }
 .modal > .actions {
   width: 100%;
@@ -112,4 +114,16 @@
   background: #ffffff;
   border-radius: 18px;
   border: 1px solid #cfcece;
+}
+
+.space-remover {
+  padding: 0px;
+}
+
+.final-price-para {
+  margin-left: 300px;
+}
+
+.bg-span {
+  background-color: red;
 }

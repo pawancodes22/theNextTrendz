@@ -62,22 +62,27 @@ const Cart = () => (
                         </button>
                         <div className="header"> Checkout </div>
                         <div className="content">
-                          <ul>
+                          <div className="price-item-container">
+                            <p className="price-para title-text bolder">
+                              Title
+                            </p>
+                            <p className="price-para bolder">Quantity</p>
+                            <p className="price-para bolder">Price</p>
+                            <p className="price-para bolder">Total Price</p>
+                          </div>
+                          <ul className="space-remover">
                             {cartList.map(item => (
                               <PriceItem key={item.id} item={item} />
                             ))}{' '}
                           </ul>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Atque, a nostrum. Dolorem, repellat quidem ut,
-                          minima sint vel eveniet quibusdam voluptates delectus
-                          doloremque, explicabo tempore dicta adipisci fugit
-                          amet dignissimos?
-                          <br />
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Consequatur sit commodi beatae optio voluptatum
-                          sed eius cumque, delectus saepe repudiandae explicabo
-                          nemo nam libero ad, doloribus, voluptas rem alias.
-                          Vitae?
+                          <div className="price-item-container">
+                            <p className="price-para bolder final-price-para">
+                              Final Price
+                            </p>
+                            <p className="price-para bolder">
+                              {orderTotal()}/-
+                            </p>
+                          </div>
                         </div>
                         <div className="actions">
                           <Popup
@@ -87,7 +92,7 @@ const Cart = () => (
                             position="top center"
                             nested
                           >
-                            <span>
+                            <span className="bg-span">
                               Lorem ipsum dolor sit amet, consectetur
                               adipisicing elit. Beatae magni omnis delectus
                               nemo, maxime molestiae dolorem numquam mollitia,

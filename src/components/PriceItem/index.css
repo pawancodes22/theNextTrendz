@@ -4,11 +4,14 @@
 }
 
 .price-para {
+  font-size: 17px;
   width: 150px;
   text-align: right;
   color: black;
+  margin: 0px;
+  margin-bottom: 8px;
 }
 
 .title-text {
-  text-align: right;
+  text-align: left;
 }
