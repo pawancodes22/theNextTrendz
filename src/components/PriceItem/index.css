@@ -1,0 +1,14 @@
+.price-item-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.price-para {
+  width: 150px;
+  text-align: right;
+  color: black;
+}
+
+.title-text {
+  text-align: right;
+}
