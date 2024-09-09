@@ -127,3 +127,19 @@
 .bg-span {
   background-color: red;
 }
+
+.payment-methods-container {
+  padding: 0px;
+  display: flex;
+}
+
+.payment-method-item {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.error-msg {
+  margin: 0px;
+  padding: 0px;
+  color: red;
+}
