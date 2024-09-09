@@ -143,3 +143,28 @@
   padding: 0px;
   color: red;
 }
+
+.payment-button {
+  color: white;
+  background-color: #0275d8;
+  padding: 10px;
+  border-radius: 8px;
+  border-style: none;
+  margin-top: 10px;
+}
+
+.disabled-payment-button {
+  color: white;
+  background-color: grey;
+}
+
+.order-placed-para {
+  background-color: #e2dce3;
+  padding: 40px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.payment-label {
+  font-size: 15px;
+}
